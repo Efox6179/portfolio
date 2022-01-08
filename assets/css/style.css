@@ -31,8 +31,8 @@ body
   padding:20px;
   text-align:center;
   
-  background-color:rgba(0,0,0,0.9);
-  box-shadow: 0px 2px 5px rgba(0,0,0,0.6);
+  background-color:rgba(0, 17, 255, 0.9);
+  box-shadow: 0px 2px 5px rgba(38, 0, 255, 0.6);
   
   font-size:30px;
   color:white;
@@ -42,7 +42,7 @@ body
   transition:top 1s;
   -webkit-transition:top 1s;
  
-  
+  z-index: 1;
 }
 
 .menu:hover
@@ -74,15 +74,15 @@ a
 }
 
 .hero {
-    height: 600px;
-    width: 100%;
+    height: 3000px;
+    width: 1920px;
     border-radius: 0%;
     margin: auto;
     object-position: top;
     background-size: cover;
     background-position: center;
    
-    background-image: linear-gradient(to bottom, transparent, black);
+    
     
     
    
@@ -92,7 +92,7 @@ a
     position:absolute;
     float: right; 
     padding-left: 500px;
-    padding-top: -50px;
+    padding-top: 10px;
     font-size: 40px;
   text-align: center;
   -webkit-animation: glow .3s ease-in-out infinite alternate;
@@ -112,6 +112,7 @@ h3{
     font-family: 'Vujahday Script', cursive;
     color: white;
     padding-left: 500px;
+    padding-top: 70px;
 
 }
 
@@ -125,7 +126,7 @@ h3{
 #Hello {
     
   
-  -webkit-animation: glow;
+  
   font-size: 50px;
   
 }
@@ -143,17 +144,115 @@ h3{
     font-family: 'Vujahday Script', cursive;
     color: white;
     
+    
 }
 
 h1{
 
   font-size: 50px;
+text-align: center;
+
+}
+
+.intro-paragraph {
+text-align: center;
+font-size: 30px;
+padding-top: 70px;
 
 }
 
 
 
 
+
+
+
+
+#mini-me{
+
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+#projects {
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  
+  padding-top: 800px;
+  
+  
+  
+}
+
+
+.projects {
+  outline: 0;
+  
+  display: inline-block;
+  
+  font-size: 40px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  background:transparent;
+  color: black;
+  font-weight: 600;
+  transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  height: 550px;
+  width: 650px;
+border-radius: 8px;
+text-align: center;
+display: flex;
+display: inline;
+margin: 50px;
+font-family: 'Vujahday Script', cursive;
+
+
+ 
+
+ 
+  
+  
+
+
+  
+}
+
+
+
+
+.projects:hover {
+  background-color: transparent;
+  color: #000;
+  box-shadow: 0 0 5px #1100ff,
+              0 0 20px #0400ffcc,
+              0 0 35px #1100ffb3,
+              0 0 50px #003cff99;
+  border-color: #fff;
+}
+
+#projects-title{
+
+  font-size: 60px;
+  position: relative;
+  top: 800px;
+}
+
+#contact-me-header {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 900px;
+}
 
 
 #social-links{
@@ -161,7 +260,11 @@ h1{
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 500px;
+  padding-top: 100px;
+  margin-bottom: 0px;
+  gap: 30px;
+  
+  
   
   
   
@@ -179,25 +282,26 @@ h1{
 
 .button {
   outline: 0;
-  position: relative;
+  
   display: inline-block;
   
   font-size: 40px;
   overflow: hidden;
   cursor: pointer;
-  border: 2px solid #1100ff;
+  border: 2px solid #ffffff;
   background:transparent;
   color: black;
   font-weight: 600;
   transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
   height: 200px;
-  width: 500px;
+  width: 400px;
 border-radius: 8px;
 text-align: center;
 display: flex;
 display: inline;
-margin: 50px;
+
 font-family: 'Vujahday Script', cursive;
+
 
  
 
@@ -222,26 +326,35 @@ font-family: 'Vujahday Script', cursive;
   border-color: #fff;
 }
 
+.body{
+  min-height: 100vh;
+}
 
 
 
 
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
 
 
 
 
+.footer{
+  
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Vujahday Script', cursive;
-    text-align: center;
-    color: white;
-    position:fixed;
-   left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
+  width: 100%;
+  height: 2.5rem;
+  color: white;
+  text-align: center;
+  clear: both;
+  margin-top: 50px;
+  border-top: 1px solid black;
+  font-size: 20px;
+  
+  
+  
 }

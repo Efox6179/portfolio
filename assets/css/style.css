@@ -6,19 +6,8 @@ body
   margin: 0px;
  
 }
+/* this is the nav bar at the top that slides down when you hover over it */
 
-#order
-{
-  
-  font-size:15px;
- 
-
-  
-  display:inline-block;
-  -webkit-transform:rotate3d(0,0,1,30deg);
-  transform:rotate3d(0,0,1,30deg);
-  
-}
 
 
 .menu
@@ -51,8 +40,6 @@ body
 }
 
 
-
-
 .menu span
 {
   margin:30px;  
@@ -64,29 +51,13 @@ body
 }
 
 
-
-
-
 a
 {
   text-decoration:none;
   color:white;
 }
 
-.hero {
-    height: 3000px;
-    width: 1920px;
-    border-radius: 0%;
-    margin: auto;
-    object-position: top;
-    background-size: cover;
-    background-position: center;
-   
-    
-    
-    
-   
-}
+/*This is the arrow pointing to the nav bar, in the future id like to have this and the text disappear when you scroll down*/
 
 #arrow1 {
     position:absolute;
@@ -96,11 +67,9 @@ a
     font-size: 40px;
   text-align: center;
   -webkit-animation: glow .3s ease-in-out infinite alternate;
-
-
   
 }
-
+/*this is the flow animation for both the arrow and my name  */
 @-webkit-keyframes glow  {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1100ff, 0 0 40px #1100ff, 0 0 50px #1100ff, 0 0 60px #1100ff, 0 0 70px #1100ff;
@@ -113,6 +82,7 @@ h3{
     color: white;
     padding-left: 500px;
     padding-top: 70px;
+    font-size: 20px;
 
 }
 
@@ -161,13 +131,7 @@ padding-top: 70px;
 
 }
 
-
-
-
-
-
-
-
+/* this is a character that i created in a 32 bit avatar creator */
 #mini-me{
 
  
@@ -179,7 +143,7 @@ padding-top: 70px;
   padding-top: 50px;
 }
 
-
+/*making this ID allows me to expand in the future and still be able to keep the flex properties  */
 #projects {
 
   display: flex;
@@ -188,8 +152,6 @@ padding-top: 70px;
   align-items: center;
   
   padding-top: 800px;
-  
-  
   
 }
 
@@ -217,19 +179,10 @@ margin: 50px;
 font-family: 'Vujahday Script', cursive;
 
 
- 
-
- 
-  
-  
-
-
   
 }
 
-
-
-
+/* this is for the hover animation for the projects  */
 .projects:hover {
   background-color: transparent;
   color: #000;
@@ -264,19 +217,7 @@ font-family: 'Vujahday Script', cursive;
   margin-bottom: 0px;
   gap: 30px;
   
-  
-  
-  
-  
-
-
-
-  
-  
   }
-
-
-
 
 
 
@@ -303,13 +244,6 @@ display: inline;
 font-family: 'Vujahday Script', cursive;
 
 
- 
-
- 
-  
-  
-
-
   
 }
 
@@ -319,10 +253,10 @@ font-family: 'Vujahday Script', cursive;
 .button:hover {
   background-color: transparent;
   color: #000;
-  box-shadow: 0 0 5px #1100ff,
-              0 0 20px #0400ffcc,
-              0 0 35px #1100ffb3,
-              0 0 50px #003cff99;
+  box-shadow: 0 0 5px #ff0000,
+              0 0 20px #ff0000cc,
+              0 0 35px #ff0000b3,
+              0 0 50px #ff000099;
   border-color: #fff;
 }
 
@@ -341,7 +275,7 @@ font-family: 'Vujahday Script', cursive;
 
 
 
-
+/*  */
 
 .footer{
   
